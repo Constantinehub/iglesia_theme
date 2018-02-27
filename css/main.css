@@ -1,0 +1,74 @@
+.nobreak {
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  -o-column-break-inside: avoid;
+  -ms-column-break-inside: avoid;
+  display: table;
+}
+/* Your Custom code here */
+.container {
+  width: 96%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+Header styles
+*/
+.top_header {
+  position: relative;
+  height: 105px;
+  background-color: #fff;
+}
+.top_header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 5px;
+  background: url("img/bottom.png") repeat-x center center;
+}
+.header_third {
+  width: 33.33%;
+  float: left;
+}
+.header_third.logo_section {
+  text-align: center;
+  line-height: 105px;
+}
+.header_third.logo_section .logo_link {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.header_third.logo_section .logo_link:hover {
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  -webkit-opacity: 0.6;
+  opacity: 0.6;
+}
+.header_third.social_section {
+  text-align: right;
+  font-size: 18px;
+  color: #d4dad9;
+  line-height: 105px;
+}
+.header_third.social_section a {
+  color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.header_third.social_section a:hover {
+  color: #aeaeae;
+}
+.header_third.social_section i {
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 25px;
+}

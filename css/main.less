@@ -1,7 +1,101 @@
 @import 'elements.less';
 
+@color_grey: #d4dad9;
+@color_darkgrey: #aeaeae;
+
 /* Your Custom code here */
 
-div.example{
-  color:#fff;
+.container {
+  width: 96%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/*
+Header styles
+*/
+.top_header {
+  position: relative;
+  height: 105px;
+  background-color: #fff;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 5px;
+    background: url("img/bottom.png") repeat-x center center;
+  }
+}
+
+.header_third {
+  width: 33.33%;
+  float: left;
+
+  &.logo_section {
+    text-align: center;
+    line-height: 105px;
+
+    .logo_link {
+      .transition(all 300ms ease-in-out);
+      &:hover {
+        .opacity(0.6);
+      }
+    }
+  }
+
+  &.social_section {
+    text-align: right;
+    font-size: 18px;
+    color: @color_grey;
+    line-height: 105px;
+
+    a {
+      color: inherit;
+      .transition(all 300ms ease-in-out);
+      &:hover {
+        color: @color_darkgrey;
+      }
+    }
+
+    i {
+      display: inline-block;
+      font-size: 22px;
+      margin-left: 25px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
