@@ -78,6 +78,7 @@ section {
   font-family: inherit;
   vertical-align: baseline;
   list-style: none;
+  box-sizing: border-box;
 }
 :focus {
   outline: 0;
