@@ -569,6 +569,9 @@ Header styles
   height: 105px;
   background-color: #fff;
 }
+.top_header .container {
+  overflow: hidden;
+}
 .top_header .top_navigation {
   display: none;
   position: absolute;
@@ -746,6 +749,7 @@ Header styles
 .top_header::after {
   content: '';
   position: absolute;
+  z-index: 1;
   left: 0;
   top: 100%;
   width: 100%;
@@ -760,6 +764,7 @@ Header styles
   line-height: 105px;
 }
 .header_third.search_section .menu_icon {
+  min-width: 20px;
   line-height: 110px;
   display: inline-block;
   float: left;
@@ -852,4 +857,140 @@ Header styles
 .header_third.social_section i {
   display: inline-block;
   font-size: 22px;
+}
+.home_slider {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.home_slider .flexslider {
+  position: relative;
+  width: 50%;
+  max-height: 350px;
+  float: left;
+}
+.home_slider .flexslider .flex-prev {
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  margin-left: -40px;
+  margin-top: -40px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.home_slider .flexslider .flex-prev:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.home_slider .flexslider .flex-next {
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  margin-top: -40px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.home_slider .flexslider .flex-next:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.home_slider ul.slides {
+  max-height: 350px;
+  overflow: hidden;
+}
+.home_slider ul.slides li {
+  width: 50%;
+  float: left;
+}
+.home_slider ul.slides li figure {
+  position: relative;
+}
+.home_slider ul.slides li figure figcaption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding-top: 80px;
+  padding-left: 80px;
+  text-align: left;
+  background-color: rgba(128, 66, 88, 0.8);
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -ms-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+}
+.home_slider ul.slides li figure figcaption .mainslidertitle {
+  display: block;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  color: #fff;
+}
+.home_slider ul.slides li figure figcaption .mainsliderdesc {
+  display: block;
+  font-family: "Playfair Display";
+  font-size: 54px;
+  color: #fff;
+}
+.home_slider ul.slides li figure figcaption .sliderlinkmore {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #ffefa7;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-top: 5px;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.home_slider ul.slides li figure figcaption .sliderlinkmore:hover {
+  color: #fff;
+  background-color: #000;
+}
+.home_slider ul.slides li.flex-active-slide figure figcaption {
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -ms-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+}
+.home_slider ul.slides li img {
+  max-width: 100%;
+  height: auto;
 }

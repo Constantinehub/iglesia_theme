@@ -15,7 +15,16 @@ jQuery(function($) {
         controlNav: false
     });
 
+    $('.flexslider').flexslider({
+        animation:'slide',
+        animationLoop: true,
+        prevText: '<i class="fas fa-chevron-left"></i>',
+        nextText: '<i class="fas fa-chevron-right"></i>',
+        // smoothHeight:true,
+        controlNav: false
+    });
 
+    $('.flexslider .flex-viewport').css('overflow', 'visible');
 
     $(".menu_icon i.fa-bars").on("click", function() {
         $(".menu_icon i.fa-bars").css('display', 'none');
