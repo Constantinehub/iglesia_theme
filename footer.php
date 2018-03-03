@@ -1,24 +1,15 @@
     <!-- Footer -->
-    <nav class="footer-menu <?php if($post->post_type == "gallery" and !is_single()) { echo""; } elseif(is_page_template('template-contact.php') or is_page_template('template-about.php') or is_404() or is_page_template('template-award.php') or is_page_template('page-home.php')  or is_page_template('template-press.php')){  echo ""; } else { echo "no-fixed";}    ?>">
 
-        <!-- Social -->
-        <ul class="left">
-            <?php if(ale_get_option('fb')){ echo '<li class="facebook"><a href="'.ale_get_option('fb').'" rel="external"></a></li>'; } ?>
-            <?php if(ale_get_option('twi')){ echo '<li class="twitter"><a href="'.ale_get_option('twi').'" rel="external"></a></li>'; } ?>
-            <?php if(ale_get_option('gog')){ echo '<li class="google"><a href="'.ale_get_option('gog').'" rel="external"></a></li>'; } ?>
-            <?php if(ale_get_option('pint')){ echo '<li class="pinterest"><a href="'.ale_get_option('pint').'" rel="external"></a></li>'; } ?>
-            <?php if(ale_get_option('flickr')){ echo '<li class="flickr"><a href="'.ale_get_option('flickr').'" rel="external"></a></li>'; } ?>
-            <?php if(ale_get_option('linked')){ echo '<li class="linkedin"><a href="'.ale_get_option('linked').'" rel="external"></a></li>'; } ?>
-            <?php if(ale_get_option('insta')){ echo '<li class="instagram"><a href="'.ale_get_option('insta').'" rel="external"></a></li>'; } ?>
-            <?php if(ale_get_option('emailcont')){ echo '<li class="mail"><a href="mailto:'.ale_get_option('emailcont').'" rel="external"></a></li>'; } ?>
-            <?php if(ale_get_option('rssicon')){?><li class="rss"><a href="<?php echo home_url(); ?>/feed" rel="external"></a></li><?php } ?>
-        </ul>
-
-        <?php if(is_page_template('page-home.php')){ ?>
-        <!-- Footer Menu -->
-        <div class="center">
-            <ul class="nav">
-                <li><span><?php echo ale_get_option('footermenutitle'); ?></span>
+    <footer class="main-footer">
+        <div class="top_footer">
+            <div class="container">
+                <div class="footer_logo footer_inner">
+                    <?php if(ale_get_option('footerlogo')) { ?>
+                        <a href="<?php echo home_url("/"); ?>" class="logo_link"><img src="<?php echo ale_get_option('footerlogo'); ?>" alt="" /></a>
+                    <?php } ?>
+                </div>
+                <div class="footer_menu footer_inner">
+                    <h5><?php _e('Information','alethemes'); ?></h5>
                     <?php
                     if ( has_nav_menu( 'footer_menu' ) ) {
                         wp_nav_menu(array(
@@ -30,19 +21,45 @@
                         ));
                     }
                     ?>
-                </li>
-            </ul>
+                </div>
+                <div class="footer_contact footer_inner">
+                    <h5><?php _e('Contacts','alethemes'); ?></h5>
+                    <?php if(ale_get_option('footer_phone')) { ?>
+                        <div class="footer_phone"><?php echo ale_get_option('footer_phone'); ?></div>
+                    <?php } ?>
+                    <?php if(ale_get_option('footer_address')) { ?>
+                        <div class="footer_address"><?php echo ale_get_option('footer_address'); ?></div>
+                    <?php } ?>
+                    <?php if(ale_get_option('footer_email')) { ?>
+                        <div class="footer_email"><a href="mailto:<?php echo ale_get_option('footer_email'); ?>"> <?php echo ale_get_option('footer_email'); ?></a></div>
+                    <?php } ?>
+                </div>
+                <div class="footer_twitter footer_inner">
+                    <?php get_sidebar('footer'); ?>
+                </div>
+            </div>
         </div>
-        <?php } ?>
+        <div class="bottom_footer">
+            <div class="container">
+                <div class="copyrights">
+                    <!--  Copyright  -->
+                    <?php if (ale_get_option('copyrights')) : ?>
+                        <?php echo ale_option('copyrights'); ?>
+                    <?php else: ?>
+                        &copy; <?php _e('2013 All Rights Reserved “Iglesia”', 'aletheme')?>
+                    <?php endif; ?>
+                </div>
+                <div class="footer_social">
+                    <?php if(ale_get_option('vm')) { ?><a href="<?php echo ale_get_option('vm'); ?>" class="social_link"><i class="fab fa-vimeo-v"></i></a><?php } ?>
+                    <?php if(ale_get_option('insta')) { ?><a href="<?php echo ale_get_option('insta'); ?>" class="social_link"><i class="fab fa-instagram"></i></a><?php } ?>
+                    <?php if(ale_get_option('twi')) { ?><a href="<?php echo ale_get_option('twi'); ?>" class="social_link"><i class="fab fa-twitter-square"></i></a><?php } ?>
+                    <?php if(ale_get_option('fb')) { ?><a href="<?php echo ale_get_option('fb'); ?>" class="social_link"><i class="fab fa-facebook-f"></i></a><?php } ?>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
 
-        <!-- Copy -->
-        <?php if (ale_get_option('copyrights')) : ?>
-            <p class="right"><?php echo ale_option('copyrights'); ?></p>
-        <?php else: ?>
-            <p class="right">&copy; <?php _e('2013 ALL RIGHTS RESERVED', 'aletheme')?></p>
-        <?php endif; ?>
-
-    </nav>
     <!-- Scripts -->
     <?php wp_footer(); ?>
 </body>

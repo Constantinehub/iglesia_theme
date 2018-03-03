@@ -23,7 +23,9 @@
                 </div>
             </div>
             <div class="header_third logo_section">
-                <a href="<?php echo home_url("/"); ?>" class="logo_link"><img src="<?php echo ale_get_option('sitelogo'); ?>" alt="" /></a>
+                <?php if(ale_get_option('sitelogo')) { ?>
+                    <a href="<?php echo home_url("/"); ?>" class="logo_link"><img src="<?php echo ale_get_option('sitelogo'); ?>" alt="" /></a>
+                <?php } ?>
             </div>
             <div class="header_third social_section">
                 <?php if(ale_get_option('vm')) { ?><a href="<?php echo ale_get_option('vm'); ?>" class="social_link"><i class="fab fa-vimeo-v"></i></a><?php } ?>
@@ -51,4 +53,10 @@
             </div>
         </nav>
     </header>
-</div>
+    <?php if(!is_page_template('page-home.php')) { ?>
+        <section class="inner_header">
+            <div class="container">
+                <?php echo get_breadcrumbs(); ?>
+            </div>
+        </section>
+    <?php } ?>
