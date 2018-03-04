@@ -81,6 +81,11 @@
   -webkit-transition-duration: @duration;
   transition-duration: @duration;
 }
+.transition-delay(@delay: 0.2s) {
+  -moz-transition-delay: @delay;
+  -webkit-transition-delay: @delay;
+  transition-delay: @delay;
+}
 .rotation(@deg:5deg){
   -webkit-transform: rotate(@deg);
   -moz-transform: rotate(@deg);

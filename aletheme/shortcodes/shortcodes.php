@@ -402,13 +402,16 @@ if (!function_exists('ale_map')) {
                     var location = new google.maps.LatLng("<?php echo $coordinates['lat']; ?>", "<?php echo $coordinates['lng']; ?>");
                     var map_options = {
                         zoom: 15,
+						scrollwheel: false,
                         center: location,
+						styles: <?php echo ale_get_option('mapstyle'); ?>,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     }
                     map_<?php echo $map_id ; ?> = new google.maps.Map(document.getElementById("<?php echo $map_id ; ?>"), map_options);
                     var marker = new google.maps.Marker({
                         position: location,
-                        map: map_<?php echo $map_id ; ?>
+                        map: map_<?php echo $map_id ; ?>,
+						icon: "<?php echo ale_get_option('mapicon') ?>",
                     });
                 }
                 ale_run_map_<?php echo $map_id ; ?>();

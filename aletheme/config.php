@@ -108,30 +108,44 @@ function aletheme_get_options() {
                         "type" => "heading");
 
     $options[] = array( "name" => "Select the body Font from Google Library",
-                        "desc" => "The default Font is - Raleway",
+                        "desc" => "The default Font is - Droid Serif",
                         "id" => "ale_headerfont",
-                        "std" => "Raleway",
+                        "std" => "Droid+Serif",
                         "type" => "select",
                         "options" => $headerfont);
 
     $options[] = array( "name" => "Select the body Font (Extended) from Google Library",
-                        "desc" => "The default Font (extended) is - 600",
+                        "desc" => "The default Font (extended)",
                         "id" => "ale_headerfontex",
-                        "std" => "600",
+                        "std" => "400,400i,700,700i",
                         "type" => "text",
                         );
 
     $options[] = array( "name" => "Select the Headers Font from Google Library",
-                        "desc" => "The default Font is - Libre Baskerville",
+                        "desc" => "The default Font is - Playfair Display SC",
                         "id" => "ale_mainfont",
-                        "std" => "Libre+Baskerville",
+                        "std" => "Playfair+Display+SC",
                         "type" => "select",
                         "options" => $headerfont);
 
     $options[] = array( "name" => "Select the Headers Font (Extended) from Google Library",
-                        "desc" => "The default Font (extended) is - 400,400italic",
+                        "desc" => "The default Font (extended)",
                         "id" => "ale_mainfontex",
-                        "std" => "400,400italic",
+                        "std" => "400,400i,700,700i,900,900i",
+                        "type" => "text",
+                        );
+
+    $options[] = array( "name" => "Select the Headers Font from Google Library",
+                        "desc" => "The default Font is - Playfair Display",
+                        "id" => "ale_thirdfont",
+                        "std" => "Playfair+Display",
+                        "type" => "select",
+                        "options" => $headerfont);
+
+    $options[] = array( "name" => "Select the Headers Font (Extended) from Google Library",
+                        "desc" => "The default Font (extended) is - 400",
+                        "id" => "ale_thirdfontex",
+                        "std" => "400,400i,700,700i,900,900i",
                         "type" => "text",
                         );
 
@@ -279,6 +293,21 @@ function aletheme_get_options() {
                             'image_2' => $imagepath.'/2cl.png',
                             'image_3' => $imagepath.'/2cr.png', ),
         );
+
+    $options[] = array( "name" => "Maps Settings",
+                        "type" => "heading");
+
+    $options[] = array( "name" => "Maps Icon",
+                        "desc" => "Upload or put the site icon link",
+                        "id" => "ale_mapicon",
+                        "std" => "",
+                        "type" => "upload");
+
+    $options[] = array( "name" => "Map Style",
+                        "desc" => "Insert the map style from Snazzy Maps Service",
+                        "id" => "ale_mapstyle",
+                        "std" => "",
+                        "type" => "text");
 	
 	return $options;
 }
@@ -382,35 +411,21 @@ function aletheme_get_images_sizes() {
 
         'gallery' => array(
             array(
-                'name'      => 'gallery-thumba',
-                'width'     => 430,
-                'height'    => 267,
+                'name'      => 'gallery-small',
+                'width'     => 225,
+                'height'    => 225,
                 'crop'      => true,
             ),
             array(
-                'name'      => 'gallery-mini',
-                'width'     => 100,
-                'height'    => 67,
+                'name'      => 'gallery-medium',
+                'width'     => 470,
+                'height'    => 225,
                 'crop'      => true,
             ),
             array(
-                'name'      => 'gallery-big',
-                'width'     => 680,
-                'height'    => 9999,
-                'crop'      => false,
-            ),
-        ),
-        'post' => array(
-            array(
-                'name'      => 'post-thumba',
-                'width'     => 475,
-                'height'    => 295,
-                'crop'      => true,
-            ),
-            array(
-                'name'      => 'post-minibox',
-                'width'     => 500,
-                'height'    => 200,
+                'name'      => 'gallery-large',
+                'width'     => 470,
+                'height'    => 470,
                 'crop'      => true,
             ),
         ),
