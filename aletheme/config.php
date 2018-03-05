@@ -450,6 +450,7 @@ function aletheme_get_post_types() {
                     'title',
                     'editor',
                     'thumbnail',
+                    'excerpt',
                 ),
                 'show_in_nav_menus'=> true,
             ),

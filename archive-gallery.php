@@ -5,7 +5,6 @@
         <div class="container">
             <h2 class="page_title"><?php _e('Gallery','aletheme'); ?></h2>
                 <div class="page_content gallery-page cf">
-                    <?php global $query_string; query_posts($query_string.'&posts_per_page=12'); ?>
                     <?php
                     $i = 0;
 
@@ -30,6 +29,31 @@
                         </div>
                     <?php endwhile;  endif;  ?>
                 </div>
+                <?php global $wp_query;
+                    if($wp_query->max_num_pages >1) {
+                ?>
+                <div class="pagination">
+                    <div class="paginate_prev">
+                        <?php
+                        if(get_previous_posts_link()) {
+                            echo get_previous_posts_link('<i class="fas fa-angle-left"></i>');
+                        } else {
+                            echo '<i class="fas fa-angle-left"></i>';
+                        } ?>
+                    </div>
+                    <div class="paginate_items">
+                        <?php ale_page_links(); ?>
+                    </div>
+                    <div class="paginate_next">
+                        <?php
+                        if(get_next_posts_link()) {
+                            echo get_next_posts_link('<i class="fas fa-angle-right"></i>');
+                        } else {
+                            echo '<i class="fas fa-angle-right"></i>';
+                        } ?>
+                    </div>
+                </div>
+                <?php }; ?>
             </div>
         </div>
     </div>

@@ -6,16 +6,12 @@ jQuery(function($) {
     $('.portfolioslider').flexslider({
         animation:'slide',
         smoothHeight:true,
-        controlNav: false
+        prevText: '<i class="fas fa-chevron-left"></i>',
+        nextText: '<i class="fas fa-chevron-right"></i>',
+        controlNav: false,
     });
 
-    $('.newhomeslider').flexslider({
-        animation:'slide',
-        smoothHeight:true,
-        controlNav: false
-    });
-
-    $('.flexslider').flexslider({
+    $('.homeslider').flexslider({
         animation:'slide',
         animationLoop: true,
         prevText: '<i class="fas fa-chevron-left"></i>',
@@ -24,7 +20,7 @@ jQuery(function($) {
         controlNav: false
     });
 
-    $('.flexslider .flex-viewport').css('overflow', 'visible');
+    $('.homeslider .flex-viewport').css('overflow', 'visible');
 
     $(".menu_icon i.fa-bars").on("click", function() {
         $(".menu_icon i.fa-bars").css('display', 'none');

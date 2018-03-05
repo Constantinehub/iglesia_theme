@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe75274-aff8-437e-85c1-f85b6542faf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/elements.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/bottom2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/casey-horner-436616-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/charl-van-rooy-530347-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/chuttersnap-139486-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/designhorf-200468-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/fabien-bazanegue-550262-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/ferran-fusalba-rosello-29859-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/iv-horton-161649-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/josh-applegate-149607-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/martin-sattler-132734-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/michael-d-beckwith-579320-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/stephan-seeber-274550-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/tom-skarbek-wazynski-110164-unsplash.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aletheme/config.php" afterPath="$PROJECT_DIR$/aletheme/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aletheme/shortcodes/shortcodes.php" afterPath="$PROJECT_DIR$/aletheme/shortcodes/shortcodes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aletheme/functions/general.php" afterPath="$PROJECT_DIR$/aletheme/functions/general.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive-gallery.php" afterPath="$PROJECT_DIR$/archive-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/elements.less" afterPath="$PROJECT_DIR$/css/elements.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/general.css" afterPath="$PROJECT_DIR$/css/general.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/css-option.php" afterPath="$PROJECT_DIR$/partials/css-option.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-contact.php" afterPath="$PROJECT_DIR$/template-contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-home.php" afterPath="$PROJECT_DIR$/page-home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-gallery.php" afterPath="$PROJECT_DIR$/single-gallery.php" />
     </list>
     <ignored path="iglesia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +71,31 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="995" column="16" selection-start-line="995" selection-start-column="16" selection-end-line="995" selection-end-column="16" />
+            <state relative-caret-position="355">
+              <caret line="1136" column="5" selection-start-line="1136" selection-start-column="5" selection-end-line="1136" selection-end-column="5" />
+              <folding>
+                <element signature="e#7530#7947#0" expanded="false" />
+                <element signature="e#7964#8355#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/single-gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -69,19 +104,23 @@
       <file leaf-file-name="archive-gallery.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/archive-gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="90" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page.php">
+      <file leaf-file-name="general.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aletheme/functions/general.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="501">
+              <caret line="185" column="28" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="28" />
+              <folding>
+                <marker date="1520244114359" expanded="true" signature="3135:3208" placeholder="SELECT DISTI... ${$wpdb-&gt;posts}" />
+                <marker date="1520244114359" expanded="true" signature="33842:34196" placeholder="SELECT DISTI... " />
+                <marker date="1520244114359" expanded="true" signature="34383:34569" placeholder="SELECT DISTI... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +128,8 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -99,15 +138,15 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aletheme/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="430" column="10" selection-start-line="430" selection-start-column="10" selection-end-line="430" selection-end-column="10" />
+            <state relative-caret-position="562">
+              <caret line="452" column="30" selection-start-line="452" selection-start-column="30" selection-end-line="452" selection-end-column="30" />
               <folding>
-                <marker date="1520182232059" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-                <marker date="1520182232059" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-                <marker date="1520182232059" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-                <marker date="1520182232059" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-                <marker date="1520182232059" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-                <marker date="1520182232059" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+                <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
+                <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
+                <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
+                <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
+                <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
+                <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
               </folding>
             </state>
           </provider>
@@ -141,19 +180,20 @@
         <option value="$PROJECT_DIR$/searchform.php" />
         <option value="$PROJECT_DIR$/aletheme/etc/system.php" />
         <option value="$PROJECT_DIR$/css/reset.less" />
-        <option value="$PROJECT_DIR$/page-home.php" />
         <option value="$PROJECT_DIR$/aletheme/options/admin/options-framework.php" />
         <option value="$PROJECT_DIR$/footer-sidebar.php" />
-        <option value="$PROJECT_DIR$/aletheme/functions/general.php" />
-        <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/partials/css-option.php" />
         <option value="$PROJECT_DIR$/aletheme/shortcodes/shortcodes.php" />
         <option value="$PROJECT_DIR$/template-contact.php" />
-        <option value="$PROJECT_DIR$/aletheme/config.php" />
-        <option value="$PROJECT_DIR$/archive-gallery.php" />
         <option value="$PROJECT_DIR$/css/elements.less" />
+        <option value="$PROJECT_DIR$/aletheme/functions/general.php" />
+        <option value="$PROJECT_DIR$/archive-gallery.php" />
+        <option value="$PROJECT_DIR$/aletheme/config.php" />
+        <option value="$PROJECT_DIR$/single-gallery.php" />
+        <option value="$PROJECT_DIR$/page-home.php" />
+        <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/css/main.less" />
       </list>
     </option>
@@ -259,6 +299,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -390,7 +431,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,7 +489,8 @@
       <workItem from="1519808308810" duration="16285000" />
       <workItem from="1519988078626" duration="11168000" />
       <workItem from="1520066208656" duration="23041000" />
-      <workItem from="1520158239833" duration="18501000" />
+      <workItem from="1520158239833" duration="18694000" />
+      <workItem from="1520241534244" duration="13529000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1519724961737</created>
@@ -486,17 +527,24 @@
       <option name="project" value="LOCAL" />
       <updated>1520114721063</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added gallery page (without pagination)">
+      <created>1520197409339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520197409339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84831000" />
+    <option name="totallyTimeSpent" value="98553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21682848" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22006473" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -535,7 +583,8 @@
     <MESSAGE value="Created header box (added top menu)" />
     <MESSAGE value="Created slider box (add slider)" />
     <MESSAGE value="Added contact page (without contact-form and contact-map)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added contact page (without contact-form and contact-map)" />
+    <MESSAGE value="Added gallery page (without pagination)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gallery page (without pagination)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -550,29 +599,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aletheme/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6052">
-          <caret line="356" column="46" selection-start-line="356" selection-start-column="46" selection-end-line="356" selection-end-column="46" />
-          <folding>
-            <marker date="1520182232059" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -585,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +618,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#7530#7947#0" expanded="false" />
+            <element signature="e#7964#8355#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,12 +645,12 @@
         <state relative-caret-position="799">
           <caret line="47" column="51" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="51" />
           <folding>
-            <marker date="1520182232059" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
+            <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
+            <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
           </folding>
         </state>
       </provider>
@@ -639,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +682,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#7530#7947#0" expanded="false" />
+            <element signature="e#7964#8355#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -672,12 +702,12 @@
         <state relative-caret-position="3179">
           <caret line="187" column="0" selection-start-line="185" selection-start-column="42" selection-end-line="187" selection-end-column="0" />
           <folding>
-            <marker date="1520182232059" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
+            <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
+            <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
           </folding>
         </state>
       </provider>
@@ -694,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="71" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +731,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#7530#7947#0" expanded="false" />
+            <element signature="e#7964#8355#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,12 +743,12 @@
         <state relative-caret-position="3247">
           <caret line="191" column="40" selection-start-line="191" selection-start-column="35" selection-end-line="191" selection-end-column="40" />
           <folding>
-            <marker date="1520182232059" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
+            <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
+            <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
           </folding>
         </state>
       </provider>
@@ -844,30 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/css-option.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="732">
           <caret line="92" column="116" selection-start-line="92" selection-start-column="116" selection-end-line="92" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aletheme/functions/general.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="1204" column="65" selection-start-line="1204" selection-start-column="65" selection-end-line="1204" selection-end-column="65" />
-          <folding>
-            <marker date="1520096386296" expanded="true" signature="3135:3208" placeholder="SELECT DISTI... ${$wpdb-&gt;posts}" />
-            <marker date="1520096386296" expanded="true" signature="33817:34171" placeholder="SELECT DISTI... " />
-            <marker date="1520096386296" expanded="true" signature="34358:34544" placeholder="SELECT DISTI... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,10 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
           <caret line="406" column="73" selection-start-line="406" selection-start-column="73" selection-end-line="406" selection-end-column="73" />
-          <folding>
-            <marker date="1520174974313" expanded="true" signature="17958:18045" placeholder="..." />
-            <marker date="1520174974313" expanded="true" signature="17992:18038" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="56" column="36" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,6 +908,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="110" column="0" selection-start-line="109" selection-start-column="45" selection-end-line="110" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -914,42 +934,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/aletheme/functions/general.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="501">
+          <caret line="185" column="28" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="28" />
+          <folding>
+            <marker date="1520244114359" expanded="true" signature="3135:3208" placeholder="SELECT DISTI... ${$wpdb-&gt;posts}" />
+            <marker date="1520244114359" expanded="true" signature="33842:34196" placeholder="SELECT DISTI... " />
+            <marker date="1520244114359" expanded="true" signature="34383:34569" placeholder="SELECT DISTI... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aletheme/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="430" column="10" selection-start-line="430" selection-start-column="10" selection-end-line="430" selection-end-column="10" />
+        <state relative-caret-position="562">
+          <caret line="452" column="30" selection-start-line="452" selection-start-column="30" selection-end-line="452" selection-end-column="30" />
           <folding>
-            <marker date="1520182232059" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-            <marker date="1520182232059" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-            <marker date="1520182232059" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
+            <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
+            <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
+            <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archive-gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="90" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,11 +977,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/archive-gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single-gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="995" column="16" selection-start-line="995" selection-start-column="16" selection-end-line="995" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="355">
+          <caret line="1136" column="5" selection-start-line="1136" selection-start-column="5" selection-end-line="1136" selection-end-column="5" />
+          <folding>
+            <element signature="e#7530#7947#0" expanded="false" />
+            <element signature="e#7964#8355#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
