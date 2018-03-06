@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe75274-aff8-437e-85c1-f85b6542faf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/bottom2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/casey-horner-436616-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/charl-van-rooy-530347-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/chuttersnap-139486-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/designhorf-200468-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/fabien-bazanegue-550262-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/ferran-fusalba-rosello-29859-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/iv-horton-161649-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/josh-applegate-149607-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/martin-sattler-132734-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/michael-d-beckwith-579320-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/stephan-seeber-274550-unsplash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jpgs/tom-skarbek-wazynski-110164-unsplash.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aletheme/config.php" afterPath="$PROJECT_DIR$/aletheme/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aletheme/functions/general.php" afterPath="$PROJECT_DIR$/aletheme/functions/general.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive-gallery.php" afterPath="$PROJECT_DIR$/archive-gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aletheme/etc/front.php" afterPath="$PROJECT_DIR$/aletheme/etc/front.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments.php" afterPath="$PROJECT_DIR$/comments.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/general.css" afterPath="$PROJECT_DIR$/css/general.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-home.php" afterPath="$PROJECT_DIR$/page-home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-gallery.php" afterPath="$PROJECT_DIR$/single-gallery.php" />
     </list>
     <ignored path="iglesia.iws" />
@@ -58,21 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elements.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/elements.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="1136" column="5" selection-start-line="1136" selection-start-column="5" selection-end-line="1136" selection-end-column="5" />
+            <state relative-caret-position="533">
+              <caret line="1318" column="20" selection-start-line="1318" selection-start-column="20" selection-end-line="1318" selection-end-column="20" />
               <folding>
                 <element signature="e#7530#7947#0" expanded="false" />
                 <element signature="e#7964#8355#0" expanded="false" />
@@ -84,43 +59,45 @@
       <file leaf-file-name="single-gallery.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single-gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archive-gallery.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archive-gallery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aletheme/functions/general.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="185" column="28" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="28" />
+            <state relative-caret-position="102">
+              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
               <folding>
-                <marker date="1520244114359" expanded="true" signature="3135:3208" placeholder="SELECT DISTI... ${$wpdb-&gt;posts}" />
-                <marker date="1520244114359" expanded="true" signature="33842:34196" placeholder="SELECT DISTI... " />
-                <marker date="1520244114359" expanded="true" signature="34383:34569" placeholder="SELECT DISTI... " />
+                <element signature="e#136#2286#1#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+              <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+              <folding>
+                <element signature="e#389#628#0#PHP" expanded="false" />
+                <element signature="e#649#1741#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aletheme/etc/front.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="141" column="34" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,15 +115,15 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aletheme/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="452" column="30" selection-start-line="452" selection-start-column="30" selection-end-line="452" selection-end-column="30" />
+            <state relative-caret-position="542">
+              <caret line="446" column="30" selection-start-line="446" selection-start-column="30" selection-end-line="446" selection-end-column="30" />
               <folding>
-                <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-                <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-                <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-                <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-                <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-                <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+                <marker date="1520338669392" expanded="true" signature="3691:3731" placeholder="Select the b... Google" />
+                <marker date="1520338669392" expanded="true" signature="4034:4085" placeholder="Select the b... Google" />
+                <marker date="1520338669392" expanded="true" signature="4364:4407" placeholder="Select the H... Google" />
+                <marker date="1520338669392" expanded="true" signature="4724:4778" placeholder="Select the H... Google" />
+                <marker date="1520338669392" expanded="true" signature="5064:5107" placeholder="Select the H... Google" />
+                <marker date="1520338669392" expanded="true" signature="5419:5473" placeholder="Select the H... Google" />
               </folding>
             </state>
           </provider>
@@ -175,7 +152,6 @@
         <option value="$PROJECT_DIR$/aletheme/widgets/widget-gallery.php" />
         <option value="$PROJECT_DIR$/aletheme/widgets/widget-mostcommented.php" />
         <option value="$PROJECT_DIR$/css/fontawesome-all.min.css" />
-        <option value="$PROJECT_DIR$/aletheme/etc/front.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/searchform.php" />
         <option value="$PROJECT_DIR$/aletheme/etc/system.php" />
@@ -190,10 +166,12 @@
         <option value="$PROJECT_DIR$/css/elements.less" />
         <option value="$PROJECT_DIR$/aletheme/functions/general.php" />
         <option value="$PROJECT_DIR$/archive-gallery.php" />
-        <option value="$PROJECT_DIR$/aletheme/config.php" />
-        <option value="$PROJECT_DIR$/single-gallery.php" />
         <option value="$PROJECT_DIR$/page-home.php" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="$PROJECT_DIR$/single-gallery.php" />
+        <option value="$PROJECT_DIR$/aletheme/config.php" />
+        <option value="$PROJECT_DIR$/aletheme/etc/front.php" />
+        <option value="$PROJECT_DIR$/comments.php" />
         <option value="$PROJECT_DIR$/css/main.less" />
       </list>
     </option>
@@ -299,8 +277,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -429,6 +407,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iglesia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iglesia" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aletheme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -490,7 +486,8 @@
       <workItem from="1519988078626" duration="11168000" />
       <workItem from="1520066208656" duration="23041000" />
       <workItem from="1520158239833" duration="18694000" />
-      <workItem from="1520241534244" duration="13529000" />
+      <workItem from="1520241534244" duration="14339000" />
+      <workItem from="1520332061444" duration="13035000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1519724961737</created>
@@ -534,17 +531,24 @@
       <option name="project" value="LOCAL" />
       <updated>1520197409339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added single-gallery-post page and add pagination">
+      <created>1520282813441</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520282813441</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98553000" />
+    <option name="totallyTimeSpent" value="112398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22006473" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22330096" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -584,36 +588,27 @@
     <MESSAGE value="Created slider box (add slider)" />
     <MESSAGE value="Added contact page (without contact-form and contact-map)" />
     <MESSAGE value="Added gallery page (without pagination)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gallery page (without pagination)" />
+    <MESSAGE value="Added single-gallery-post page and add pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added single-gallery-post page and add pagination" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/aletheme/config.php</url>
-          <line>346</line>
+          <line>339</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/single-gallery.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -645,12 +640,12 @@
         <state relative-caret-position="799">
           <caret line="47" column="51" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="51" />
           <folding>
-            <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-            <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-            <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="3691:3731" placeholder="Select the b... Google" />
+            <marker date="1520338669392" expanded="true" signature="4034:4085" placeholder="Select the b... Google" />
+            <marker date="1520338669392" expanded="true" signature="4364:4407" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="4724:4778" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="5064:5107" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="5419:5473" placeholder="Select the H... Google" />
           </folding>
         </state>
       </provider>
@@ -702,12 +697,12 @@
         <state relative-caret-position="3179">
           <caret line="187" column="0" selection-start-line="185" selection-start-column="42" selection-end-line="187" selection-end-column="0" />
           <folding>
-            <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-            <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-            <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="3691:3731" placeholder="Select the b... Google" />
+            <marker date="1520338669392" expanded="true" signature="4034:4085" placeholder="Select the b... Google" />
+            <marker date="1520338669392" expanded="true" signature="4364:4407" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="4724:4778" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="5064:5107" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="5419:5473" placeholder="Select the H... Google" />
           </folding>
         </state>
       </provider>
@@ -743,12 +738,12 @@
         <state relative-caret-position="3247">
           <caret line="191" column="40" selection-start-line="191" selection-start-column="35" selection-end-line="191" selection-end-column="40" />
           <folding>
-            <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-            <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-            <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="3691:3731" placeholder="Select the b... Google" />
+            <marker date="1520338669392" expanded="true" signature="4034:4085" placeholder="Select the b... Google" />
+            <marker date="1520338669392" expanded="true" signature="4364:4407" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="4724:4778" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="5064:5107" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="5419:5473" placeholder="Select the H... Google" />
           </folding>
         </state>
       </provider>
@@ -809,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aletheme/etc/front.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5219">
@@ -858,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="264" column="39" selection-start-line="264" selection-start-column="39" selection-end-line="264" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="110" column="0" selection-start-line="109" selection-start-column="45" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,6 +916,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive-gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/elements.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -946,73 +971,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aletheme/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="452" column="30" selection-start-line="452" selection-start-column="30" selection-end-line="452" selection-end-column="30" />
+        <state relative-caret-position="542">
+          <caret line="446" column="30" selection-start-line="446" selection-start-column="30" selection-end-line="446" selection-end-column="30" />
           <folding>
-            <marker date="1520265506852" expanded="true" signature="4410:4450" placeholder="Select the b... Google" />
-            <marker date="1520265506852" expanded="true" signature="4753:4804" placeholder="Select the b... Google" />
-            <marker date="1520265506852" expanded="true" signature="5083:5126" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="5443:5497" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="5783:5826" placeholder="Select the H... Google" />
-            <marker date="1520265506852" expanded="true" signature="6138:6192" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="3691:3731" placeholder="Select the b... Google" />
+            <marker date="1520338669392" expanded="true" signature="4034:4085" placeholder="Select the b... Google" />
+            <marker date="1520338669392" expanded="true" signature="4364:4407" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="4724:4778" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="5064:5107" placeholder="Select the H... Google" />
+            <marker date="1520338669392" expanded="true" signature="5419:5473" placeholder="Select the H... Google" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/front.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/elements.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archive-gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="392">
+          <caret line="141" column="34" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single-gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding>
+            <element signature="e#136#2286#1#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-home.php">
+    <entry file="file://$PROJECT_DIR$/comments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="423">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+          <folding>
+            <element signature="e#389#628#0#PHP" expanded="false" />
+            <element signature="e#649#1741#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="1136" column="5" selection-start-line="1136" selection-start-column="5" selection-end-line="1136" selection-end-column="5" />
+        <state relative-caret-position="533">
+          <caret line="1318" column="20" selection-start-line="1318" selection-start-column="20" selection-end-line="1318" selection-end-column="20" />
           <folding>
             <element signature="e#7530#7947#0" expanded="false" />
             <element signature="e#7964#8355#0" expanded="false" />
