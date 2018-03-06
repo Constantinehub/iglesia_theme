@@ -42,6 +42,11 @@ jQuery(function($) {
         selector: "ul > li"
     });
 
+    $(".events_list").masonry({
+        itemSelector: '.event_item',
+        gutter: 20
+    });
+
 });
 
 Modernizr.addTest('ipad', function () {

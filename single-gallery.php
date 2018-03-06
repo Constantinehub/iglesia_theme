@@ -50,7 +50,7 @@
                 </div>
             <?php endwhile;  endif; ?>
             <?php comments_template(); ?>
-        </dvi>
+        </div>
     </div>
 
 <?php get_footer(); ?>
