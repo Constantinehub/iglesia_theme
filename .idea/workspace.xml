@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe75274-aff8-437e-85c1-f85b6542faf6" name="Default" comment="">
+    <list default="true" id="0fe75274-aff8-437e-85c1-f85b6542faf6" name="Default" comment="Added events page and events-category function">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aletheme/config.php" afterPath="$PROJECT_DIR$/aletheme/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aletheme/functions/general.php" afterPath="$PROJECT_DIR$/aletheme/functions/general.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/general.css" afterPath="$PROJECT_DIR$/css/general.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/reset.css" afterPath="$PROJECT_DIR$/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/reset.less" afterPath="$PROJECT_DIR$/css/reset.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-gallery.php" afterPath="$PROJECT_DIR$/single-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single.php" afterPath="$PROJECT_DIR$/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-about.php" afterPath="$PROJECT_DIR$/template-about.php" />
     </list>
     <ignored path="iglesia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +62,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aletheme/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="624" column="29" selection-start-line="624" selection-start-column="29" selection-end-line="624" selection-end-column="29" />
+            <state relative-caret-position="309">
+              <caret line="617" column="30" selection-start-line="617" selection-start-column="30" selection-end-line="617" selection-end-column="30" />
               <folding>
                 <element signature="e#13454#15364#0#PHP" expanded="false" />
                 <marker date="1521658612055" expanded="true" signature="3691:3731" placeholder="Select the b... Google" />
@@ -359,7 +348,7 @@
       <workItem from="1520158239833" duration="18694000" />
       <workItem from="1520241534244" duration="14339000" />
       <workItem from="1520332061444" duration="23113000" />
-      <workItem from="1521637775809" duration="9371000" />
+      <workItem from="1521637775809" duration="9571000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1519724961737</created>
@@ -428,11 +417,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131847000" />
+    <option name="totallyTimeSpent" value="132047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22087379" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -892,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aletheme/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="624" column="29" selection-start-line="624" selection-start-column="29" selection-end-line="624" selection-end-column="29" />
+        <state relative-caret-position="309">
+          <caret line="617" column="30" selection-start-line="617" selection-start-column="30" selection-end-line="617" selection-end-column="30" />
           <folding>
             <element signature="e#13454#15364#0#PHP" expanded="false" />
             <marker date="1521658612055" expanded="true" signature="3691:3731" placeholder="Select the b... Google" />
