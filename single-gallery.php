@@ -45,7 +45,7 @@
                         } ?>
                     </ul>
                 </div>
-                <div class="post_content">
+                <div class="post_content story">
                     <?php the_content(); ?>
                 </div>
             <?php endwhile;  endif; ?>

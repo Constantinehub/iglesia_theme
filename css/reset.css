@@ -375,11 +375,14 @@ hr {
 }
 .story blockquote,
 .content-right blockquote {
-  background: #f7f7f7;
-  border: 1px solid #e6e6e6;
-  padding: 20px;
+  padding: 50px;
+  text-align: center;
   line-height: 20px;
   margin: 1em 0em;
+}
+.story blockquote p,
+.content-right blockquote p {
+  text-align: center;
 }
 .story blockquote p:before,
 .content-right blockquote p:before {

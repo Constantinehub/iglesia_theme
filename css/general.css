@@ -375,11 +375,46 @@ hr {
 }
 .story blockquote,
 .content-right blockquote {
-  background: #f7f7f7;
-  border: 1px solid #e6e6e6;
-  padding: 20px;
-  line-height: 20px;
-  margin: 1em 0em;
+  padding: 50px;
+  text-align: center;
+  line-height: 24px;
+  margin: 4em 0em 0;
+  font-size: 15px;
+  color: #7f4258;
+  font-style: italic;
+  position: relative;
+}
+.story blockquote::before,
+.content-right blockquote::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #f2f2f2;
+}
+.story blockquote::after,
+.content-right blockquote::after {
+  content: '\f10d';
+  font: normal normal normal 8px/1 FontAwesome;
+  font-size: 40px;
+  color: #e9e9e9;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -49px;
+  margin-top: -30px;
+  padding: 0 30px;
+  background-color: #fff;
+}
+.story blockquote p,
+.content-right blockquote p {
+  text-align: center;
+}
+.story blockquote p:last-child,
+.content-right blockquote p:last-child {
+  margin-bottom: 0;
 }
 .story blockquote p:before,
 .content-right blockquote p:before {
@@ -1006,8 +1041,10 @@ Footer Styles
 footer.main-footer {
   margin-top: auto;
   min-height: 470px;
-  border-top: 1px solid #f2f2f2;
   background: #fff url("img/footer.jpg") bottom center no-repeat;
+}
+footer.main-footer.border-top-footer {
+  border-top: 1px solid #f2f2f2;
 }
 footer.main-footer .top_footer {
   min-height: 350px;
@@ -1801,6 +1838,17 @@ footer.main-footer .bottom_footer .footer_social i {
 }
 .comments-container .comment .comment_info .info .name a {
   color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.comments-container .comment .comment_info .info .name a:hover {
+  -moz-opacity: 0.75;
+  -khtml-opacity: 0.75;
+  -webkit-opacity: 0.75;
+  opacity: 0.75;
 }
 .comments-container .comment .comment_info .info .time {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;

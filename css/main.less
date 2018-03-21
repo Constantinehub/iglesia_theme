@@ -487,8 +487,11 @@ Footer Styles
 footer.main-footer {
   margin-top: auto;
   min-height: 470px;
-  border-top: 1px solid #f2f2f2;
   background: #fff url("img/footer.jpg") bottom center no-repeat;
+
+  &.border-top-footer {
+    border-top: 1px solid #f2f2f2;
+  }
 
   .top_footer {
     min-height: 350px;
@@ -1270,6 +1273,11 @@ footer.main-footer {
 
           a {
             color: inherit;
+            .transition(all 300ms ease-in-out);
+
+            &:hover {
+              .opacity(0.75);
+            }
           }
         }
         .time {
